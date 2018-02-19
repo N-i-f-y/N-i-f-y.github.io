@@ -1,0 +1,219 @@
+body{
+    background-image: url("..//images/bg.png");
+    background-attachment: fixed;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+    margin: 0;
+    overflow-x: hidden;
+    }
+.basenavbar{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.7vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+.home h1 {
+    font-style: italic;
+}
+.navbar{
+    margin: 0;
+    text-align: center;
+    height: 6.0vh;
+    float: right;
+    padding: 1vh 1.2vh 0vw 1vh;
+    margin-top: -0.5vh;
+    text-decoration: none;
+    color:white;
+    background: black;
+}
+.navbar:hover{
+    -webkit-transition: 0.7s all;
+    text-decoration: none;
+    color:white;
+    background: #D70000;
+}
+.navbar:visited{
+    text-decoration: none;
+    color:white
+}
+.navbar:active{
+    text-decoration: none;
+    color:white;
+    background: red;
+}
+#sign{
+    padding: 1vh;
+    width: 20vw;
+    margin-left: 1vw;
+}
+#link{
+    margin-right: 4vh;
+    text-align: center;
+    float: right;
+    padding: 2
+}
+.home{
+    text-align: center;
+    padding-top: 4vw;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -1vh;
+}
+.home h1{
+    font-size: 1.75vw
+}
+#title{
+    padding-top: 27vh;
+    width: 60vw;
+}
+.bio{
+    padding-top: 0.1vh;
+    padding-bottom: 10vh;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background: rgba(0,0,0,0.8);
+}
+.bio h1{
+    font-size: 5vw;
+    font-family: 'Cookie', cursive;
+}
+.bio p{
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    margin-left: 16vw;
+    margin-right: 16vw;
+    font-size: 1.5vw;
+}
+.opere{
+    margin-top: 1vh;
+    padding-top: 2vh;
+    margin-bottom: 9.5vh;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.opere h1{
+    font-size: 5vw;
+    font-family: 'Cookie', cursive;
+    margin-bottom: 10vh
+}
+.opere table{
+    margin: 0 auto;
+    background: white;
+    border: 0.15vw solid black;
+    border-collapse: collapse;
+}
+.opere th, .opere td{
+    padding: 1vh 1vw;
+    width: auto;
+    border: 0.15vw solid black;
+    border-collapse: collapse;
+}
+.opere th{
+    background-color: green;
+    font-size: 2vw;
+}
+.opere td{
+    font-size: 1.30vw;
+}
+.quadro:hover{
+    -webkit-transition: 0.7s all;
+    background: #D70000;
+    color: white;
+    cursor: pointer
+}
+.galleria{
+    padding-top: 2vh;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+    color:white;
+    text-align: center;
+}
+.galleria h1{
+    margin: 4vh;
+    font-size: 5vw;
+    font-family: 'Cookie', cursive;
+}
+.galleria h2{
+    margin-top: 3.5vh
+}
+.frame{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-align:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -webkit-box-pack:center;
+    -ms-flex-pack:center;
+    justify-content:center;
+    margin: 0 auto;
+    background: white;
+    width: 60vw;
+    height: 70vh;
+}
+#arrowl{
+    margin-top: 15vw;
+    margin-left: 5vw;
+    float: left;
+    width:6vw
+}
+#arrowr{
+    margin-top: 15vw;
+    margin-right: 5vw;
+    float: right;
+    width: 6vw
+}
+.paint{
+    display: block;
+    margin: auto;
+    max-width: 55vw;
+    max-height: 65vh;
+}
+.dove{
+    padding-top: 1vw;
+    margin-bottom: 5vh;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.dove h1{
+    font-size: 5vw;
+    font-family: 'Cookie', cursive;
+    margin-bottom: 10vh
+}
+.dove table{
+    margin: 0 auto;
+    background: white;
+    border: 0.15vw solid black;
+    border-collapse: collapse;
+}
+.dove th, .dove td{
+    padding: 1vh 1vw;
+    border: 0.15vw solid black;
+    border-collapse: collapse;
+}
+.dove th{
+    background-color: green;
+    font-size: 2vw
+}
+.dove td{
+    font-size: 1.30vw;
+}
+.quadri{
+    text-align: left;
+    width: 25vw
+}
+.dove ul{
+    list-style-type: none;
+    margin: 0vh -2vw;
+}
+.dove li:before{
+    content: "-\00a0\00a0"
+}
