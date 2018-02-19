@@ -72,7 +72,7 @@ body{
 .bio{
     padding-top: 0.1vh;
     padding-bottom: 10vh;
-    color: white;
+    color: #e5e5e5;
     text-align: center;
     width: 100%;
     height: auto;
@@ -154,7 +154,7 @@ body{
     -ms-flex-pack:center;
     justify-content:center;
     margin: 0 auto;
-    background: white;
+    background: #e5e5e5;
     width: 60vw;
     height: 70vh;
 }
